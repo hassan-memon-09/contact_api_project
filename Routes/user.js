@@ -10,6 +10,7 @@ const router = express.Router();
 //@api endPoint :- /api/user/register
 
 router.post('/register',register)
+router.post('/resetr',register)
 
 
 //User Login
