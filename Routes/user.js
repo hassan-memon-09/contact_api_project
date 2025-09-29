@@ -11,6 +11,7 @@ const router = express.Router();
 
 router.post('/register',register)
 router.post('/resetr',register)
+router.post('/reset',register)
 
 
 //User Login
